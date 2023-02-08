@@ -38,6 +38,6 @@
 
 <div id="animationArea">
 <h4 class="aa">Hi Visitor,</h4>
-<h4 class="bb">Welcome to #WeMate.</h4>
+<h4 class="bb">Welcome to #We Met Online.</h4>
 <h4 class="cc">Have A Great Day</h4>
 </div>
