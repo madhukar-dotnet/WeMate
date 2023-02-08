@@ -43,6 +43,5 @@
         // or SQLServer, the event is not raised.
          FormsAuthentication.SignOut();
     }
-    //Just for test checkin
 
 </script>
