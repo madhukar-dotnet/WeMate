@@ -163,7 +163,7 @@
     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
         <ContentTemplate>
             <div>
-                <h4 style="text-align: center" class="alert alert-info"><%= GetWelcomeBanner(CurrentRecevier.Text)%></h4>
+                <h4 style="text-align: left" class="alert alert-info"><%= GetWelcomeBanner(CurrentRecevier.Text)%></h4>
                 <span style="float: right"></span>
             </div>
             <asp:Panel runat="server" ID="chatPanel">
