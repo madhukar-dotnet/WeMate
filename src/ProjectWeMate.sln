@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "src", ".", "{8C3D5160-E25E-405F-BB3A-AA32DA5A603E}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -14,7 +14,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "src", ".", "{8C3D5160-E25E-
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_14674"
-		Release.AspNetCompiler.PhysicalPath = "..\src\"
+		Release.AspNetCompiler.PhysicalPath = "..\ProjectWeMate\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14674\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
@@ -24,15 +24,29 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "src", ".", "{8C3D5160-E25E-
 		SlnRelativePath = "..\src\"
 	EndProjectSection
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WeMetDb", "..\..\..\..\..\source\repos\WeMetDb\WeMetDb\WeMetDb.sqlproj", "{0D1DD281-2D1A-42EF-A1B1-7D98F490A1B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8C3D5160-E25E-405F-BB3A-AA32DA5A603E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8C3D5160-E25E-405F-BB3A-AA32DA5A603E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3D5160-E25E-405F-BB3A-AA32DA5A603E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3D5160-E25E-405F-BB3A-AA32DA5A603E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0D1DD281-2D1A-42EF-A1B1-7D98F490A1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1DD281-2D1A-42EF-A1B1-7D98F490A1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1DD281-2D1A-42EF-A1B1-7D98F490A1B5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0D1DD281-2D1A-42EF-A1B1-7D98F490A1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1DD281-2D1A-42EF-A1B1-7D98F490A1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1DD281-2D1A-42EF-A1B1-7D98F490A1B5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B70F781-08CB-494C-8CA1-EED427F81CC2}
 	EndGlobalSection
 EndGlobal
